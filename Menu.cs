@@ -126,7 +126,7 @@ namespace BasicSchoolList
                             var UserType = "Staff";
 
                             Random sRandom = new Random();
-                            var staffId = sRandom.Next(0100, 1000);
+                            var staffId = sRandom.Next(0100, 1000); 
                             string staffID = S + staffId;
                             Console.WriteLine($"Staff ID: {staffID}");
                             
