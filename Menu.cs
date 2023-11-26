@@ -61,6 +61,7 @@ namespace BasicSchoolList
 
                             Console.Write("Enter Fullname [Surname Firstname Middlename]: ");
                             var name = Console.ReadLine()!;
+                            name = name.ToUpper();
 
                             Console.Write("Enter Student's Class: ");
                             var studentClass = Console.ReadLine()!;
@@ -98,6 +99,7 @@ namespace BasicSchoolList
 
                             Console.Write("Enter Fullname [surname/firstname/middle name]: ");
                             var sName = Console.ReadLine()!;
+                            sName = sName.ToUpper();
 
                             Console.Write("Enter Education Qualification: ");
                             var educationQualification = Console.ReadLine()!;
